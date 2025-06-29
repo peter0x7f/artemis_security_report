@@ -1,1 +1,14 @@
-# cs305
+
+Artemis Financial is a consulting company that develops personalized financial plans for clients, including savings, retirement, investments, and insurance. The company sought to modernize its operations and needed to strengthen the security of its web application, especially regarding the transfer and storage of sensitive client data. They wanted me to implement secure communications, file verification, and encryption protocols to protect client information from unauthorized access or tampering.
+
+I effectively identified and addressed vulnerabilities in the client’s software by adding robust encryption, secure certificate management, and file verification through hashing. Coding securely is critical because it protects sensitive data, ensures regulatory compliance, and maintains client trust. Strong software security helps prevent data breaches, reputational damage, and financial losses, ultimately supporting the company’s stability and credibility.
+
+The most challenging part was ensuring all newly introduced security features integrated smoothly with the existing codebase without introducing errors or breaking functionality. Using static analysis tools like dependency-check was helpful in automatically scanning for vulnerabilities and confirming the security of my changes.
+
+I increased security layers by implementing AES-256 encryption, adding SHA-256 hashing for data integrity, enabling HTTPS communication with a self-signed certificate, and conducting both static and functional testing. In the future, I would continue using automated static analysis tools, regular code reviews, and up-to-date vulnerability databases (like CVE and OWASP Top Ten) to assess risks and choose effective mitigation strategies.
+
+After refactoring, I verified functionality by running the application and conducting manual and automated tests to ensure all features worked as expected. I then used dependency-check and manual code review to identify any newly introduced vulnerabilities, ensuring the code remained secure and reliable.
+
+Key resources included the Java Keytool for certificate management, Java Cryptography Architecture for encryption, static analysis tools like dependency-check, and secure coding standards from OWASP. Consistently following secure coding practices—such as using strong encryption, managing keys safely, and enforcing HTTPS—will be valuable in all future software projects.
+
+I could showcase my ability to analyze and secure real-world applications by presenting the secure, refactored codebase, documentation of the vulnerability assessment process, implementation of encryption and certificate management, and evidence of automated and manual security testing. This demonstrates not only technical skill but also a practical understanding of modern software security and secure software development lifecycle best practices.
